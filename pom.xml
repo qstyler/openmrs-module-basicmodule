@@ -9,18 +9,18 @@
     </parent>
 
 	<groupId>org.openmrs.module</groupId>
-	<artifactId>basicmodule</artifactId>
+	<artifactId>myfirstmodule</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Basic Module</name>
+	<name>My First Module</name>
 	<description>Example OpenMRS Module that may be used as a basis for creating a new module.</description>
 
 	<url>https://wiki.openmrs.org/x/FQ4z</url>
 
 	<scm>
-		<connection>scm:git:git@github.com:openmrs/openmrs-module-basicmodule.git</connection>
-		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-basicmodule.git</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-basicmodule/</url>
+		<connection>scm:git:git@github.com:qstyler/openmrs-module-myfirstmodule.git</connection>
+		<developerConnection>scm:git:git@github.com:qstyler/openmrs-module-myfirstmodule.git</developerConnection>
+		<url>https://github.com/qstyler/openmrs-module-myfirstmodule</url>
 	</scm>
 
 	<modules>

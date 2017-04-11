@@ -11,7 +11,7 @@
  *
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
-package org.openmrs.module.basicmodule.web.controller;
+package org.openmrs.module.myfirst.web.controller;
 
 import java.util.Collection;
 
@@ -30,17 +30,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * This class configured as controller using annotation and mapped with the URL of
- * 'module/basicmodule/basicmoduleLink.form'.
+ * 'module/myfirst/myfirstmoduleLink.form'.
  */
 @Controller
-@RequestMapping(value = "module/basicmodule/basicmoduleLink.form")
-public class BasicModuleFormController {
+@RequestMapping(value = "module/myfirstmodule/myfirstmoduleLink.form")
+public class MyFirstModuleFormController {
 	
 	/** Logger for this class and subclasses */
 	protected final Log log = LogFactory.getLog(getClass());
 	
 	/** Success form view name */
-	private final String SUCCESS_FORM_VIEW = "/module/basicmodule/basicmoduleForm";
+	private final String SUCCESS_FORM_VIEW = "/module/myfirst/myfirstmoduleForm";
 	
 	/**
 	 * Initially called after the formBackingObject method to get the landing form name
